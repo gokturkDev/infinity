@@ -18,10 +18,10 @@
 [![ci][ci-shield]][ci-url]
 [![Downloads][pepa-shield]][pepa-url]
 [![DOI](https://zenodo.org/badge/703686617.svg)](https://zenodo.org/doi/10.5281/zenodo.11406462)
+![Docker pulls](https://img.shields.io/docker/pulls/michaelf34/infinity)
 
 
-
-Infinity is a high-throughput, low-latency REST API for serving vector embeddings, supporting all sentence-transformer models and frameworks. Infinity is developed under [MIT License](https://github.com/michaelfeil/infinity/blob/main/LICENSE). Infinity powers inference behind [Gradient.ai](https://gradient.ai).
+Infinity is a high-throughput, low-latency REST API for serving vector embeddings, supporting all sentence-transformer models and frameworks. Infinity is developed under [MIT License](https://github.com/michaelfeil/infinity/blob/main/LICENSE).
 
 ## Why Infinity
 * **Deploy any model from MTEB**: deploy any embedding model from [SentenceTransformers](https://github.com/UKPLab/sentence-transformers/)
@@ -33,7 +33,7 @@ Infinity is a high-throughput, low-latency REST API for serving vector embedding
 
 
 ### Latest News 🔥
-- [2024/07] Sponsored inference deployment by [Modal](./infra/modal/README.md)
+- [2024/07] Inference deployment example via [Modal](./infra/modal/README.md) and a [free GPU deployment](https://infinity.modal.michaelfeil.eu/)
 - [2024/06] Support for multi-modal: clip, text-classification & launch all arguments from env variables
 - [2024/05] launch multiple models using the `v2` cli, including `--api-key`
 - [2024/03] infinity supports experimental int8 (cpu/cuda) and fp8 (H100/MI300) support
